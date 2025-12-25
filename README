@@ -1,1 +1,39 @@
-test
+# JavaScript Basics — 기초 학습 📚
+
+## 소개 ✅
+
+JavaScript 기초 개념을 다시 공부하고 실습 파일들을 모아둔 예제 모음입니다. 각 파일은 핵심 개념을 예제와 함께 설명을 적어 놓았습니다.
+
+---
+
+## 프로젝트 구조 📂
+
+- `1_basics/1_hello_world.js` — **콘솔 출력** 예제 (`console.log("Hello World")`)
+- `1_basics/2_comments.js` — **주석** 사용법 (한줄, 여러줄)
+- `1_basics/3_declaring_variable.js` — **변수 선언** (`var`, `let`, `const`)과 할당/재할당 예제
+- `1_basics/4_naming_conventions.js` — **네이밍 규칙** (camelCase, snake_case, PascalCase)
+- `1_basics/5_data_types.js` — **데이터 타입**(Number, String, Boolean, undefined, null, Symbol, Object) 예제
+- `1_basics/6_hoisting.js` — **Hoisting(호이스팅)** 설명과 예제
+
+---
+
+## 사용 방법 🔧
+
+1. Node.js가 설치되어 있어야 합니다.
+2. 각 예제 파일을 실행해 보세요:
+   - 예: `node 1_basics/1_hello_world.js`
+3. 콘솔 출력과 주석을 살펴보며 개념을 학습하세요.
+4. vscode 확장에 code runner를 설치해서 해당 파일에서 실행 시키면 실행이 됩니다.
+
+> 예제 파일에 핵심 개념을 설명하는 주석과 간단한 출력 예제가 포함되어 있습니다.
+
+---
+
+## 학습 포인트 💡
+
+- **변수 선언:** `var`(더 이상 권장하지 않음), `let`(재할당 가능), `const`(불변)
+- **데이터 타입:** 문자열, 숫자, 불리언, `undefined`, `null`, `Symbol`, 객체(배열 포함)
+- **템플릿 리터럴:** 백틱(``)을 사용한 문자열 보간 및 여러줄 문자열
+- **Symbol:** 유일한(Unique) 값 생성에 사용
+- **배열 인덱스:** 0부터 시작, 접근 및 변경 방법
+- **Hoisting:** 변수 선언은 호이스팅되지만 `let`/`const`는 TDZ(Temporal Dead Zone)으로 인해 사용 전에 접근하면 에러 발생
