@@ -16,6 +16,8 @@ JavaScript 기초 개념을 다시 공부하고 실습 파일들을 모아둔 �
 - `1_basics/6_hoisting.js` — **Hoisting(호이스팅)** 설명과 예제
 - `1_basics/7_operators.js` — **연산자** (산술, 비교, 논리, 대입 등)
 - `1_basics/9_if_and_switch.js` — **조건문** (if, switch 예제)
+- `1_basics/10_loops.js` — **반복문(Loops)** (for, while, do...while, for...in, for...of, break/continue 예제)
+- `1_basics/11_coercion.js` — **타입 변환(Type Conversion & Coercion)** (명시적/암묵적 변환, parseInt/parseFloat, truthy/falsy 예제)
 
 ---
 
@@ -41,3 +43,5 @@ JavaScript 기초 개념을 다시 공부하고 실습 파일들을 모아둔 �
 - **Hoisting:** 변수 선언은 호이스팅되지만 `let`/`const`는 TDZ(Temporal Dead Zone)으로 인해 사용 전에 접근하면 에러 발생
 - **연산자:** 산술 연산자(+, -, *, /, %), 증가/감소 연산자(`++`, `--`), 단항 연산자(`+`, `-`)를 통한 타입 변환, 대입/비교/논리 연산자, 삼항 연산자, 지수 연산자(`**`) 및 null 병합 연산자(`??`)의 동작과 단축 평가 이해
 - **조건문:** `if` / `else if` / `else`를 통한 분기 흐름, `switch` 문을 사용한 값 매핑과 `break` 사용 유의, 조건식에서의 정확한 비교(`===`) 권장
+- **반복문(Loops):** `for` / `while` / `do...while`의 사용과 중첩 루프, `for...in`(키/인덱스), `for...of`(값) 구문, `break`/`continue` 제어 흐름 예제
+- **타입 변환(Coercion & Conversion):** 명시적 변환(`toString()`, `parseInt`, `parseFloat`, `+` 단항연산자)과 암묵적 변환(문자열 + 숫자 등), truthy/falsy 규칙(`''`, `0`, `null`, `undefined` 등은 false)
