@@ -24,6 +24,12 @@ JavaScript 기초 개념을 다시 공부하고 실습 파일들을 모아둔 �
 - `1_basics/15_copy_by_value_and_reference.js` — **값/참조 전달** (primitive vs object, spread operator, 얕은 복사)
 - `1_basics/16_try_catch.js` — **예외 처리** (try/catch/finally, throw)
 - `2_class_and_oop/1_class_keyword.js` — **클래스 & OOP** (class, constructor, methods, 인스턴스)
+- `2_class_and_oop/2_getter_and_setter.js` — **게터/세터** (getter, setter, private fields, 접근자)
+- `2_class_and_oop/3_static_keyword.js` — **static 키워드** (클래스 메서드/프로퍼티, 인스턴스와의 차이)
+- `2_class_and_oop/4_ingeritance.js` — **상속(Inheritance)** (extends, super 사용법)
+- `2_class_and_oop/5_super_override.js` — **super & 오버라이드** (메서드 오버라이드, super 호출)
+- `2_class_and_oop/6_class_problem.js` — **클래스 연습문제** (설계 및 구현 연습)
+- `3_all_about_object/1_introduction.js` — **객체 심화** (객체 설계, 고급 패턴, 불변성)
 
 ---
 
@@ -45,6 +51,12 @@ JavaScript 기초 개념을 다시 공부하고 실습 파일들을 모아둔 �
 - `1_basics/15_copy_by_value_and_reference.js`: 값 전달 vs 참조 전달, spread 연산자
 - `1_basics/16_try_catch.js`: 예외 처리(try/catch/finally)와 `throw` 사용법
 - `2_class_and_oop/1_class_keyword.js`: 클래스 문법, 생성자, 인스턴스 메서드 및 OOP 기초
+- `2_class_and_oop/2_getter_and_setter.js`: 게터/세터 사용법 및 private 필드(`#`), 데이터 가공 및 접근자 활용
+- `2_class_and_oop/3_static_keyword.js`: `static` 키워드, 클래스 레벨 메서드/프로퍼티 사용법
+- `2_class_and_oop/4_ingeritance.js`: 상속(extends), `super` 호출과 프로퍼티/메서드 상속
+- `2_class_and_oop/5_super_override.js`: `super`를 활용한 오버라이드 패턴과 예제
+- `2_class_and_oop/6_class_problem.js`: 클래스 설계 및 문제 풀이(실습용 사례)
+- `3_all_about_object/1_introduction.js`: 객체 심화 입문 — 객체 설계, 메서드, 불변성, 고급 패턴
 
 > 각 예제 파일을 열어 주석과 콘솔 출력을 확인하며 학습하세요.
 
