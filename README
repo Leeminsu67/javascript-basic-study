@@ -18,6 +18,35 @@ JavaScript 기초 개념을 다시 공부하고 실습 파일들을 모아둔 �
 - `1_basics/9_if_and_switch.js` — **조건문** (if, switch 예제)
 - `1_basics/10_loops.js` — **반복문(Loops)** (for, while, do...while, for...in, for...of, break/continue 예제)
 - `1_basics/11_coercion.js` — **타입 변환(Type Conversion & Coercion)** (명시적/암묵적 변환, parseInt/parseFloat, truthy/falsy 예제)
+- `1_basics/12_function.js` — **함수(Function)** (선언식/표현식, 화살표 함수, 고차함수, 즉시실행함수, arguments)
+- `1_basics/13_must_know_array_functions.js` — **배열 메서드** (push/pop, map/filter/reduce, sort, splice, slice 등)
+- `1_basics/14_object.js` — **객체(Object)** (프로퍼티, 메서드, 동적 키, Object.keys/values)
+- `1_basics/15_copy_by_value_and_reference.js` — **값/참조 전달** (primitive vs object, spread operator, 얕은 복사)
+- `1_basics/16_try_catch.js` — **예외 처리** (try/catch/finally, throw)
+- `2_class_and_oop/1_class_keyword.js` — **클래스 & OOP** (class, constructor, methods, 인스턴스)
+
+---
+
+### 파일별 학습 포인트 📌
+
+- `1_basics/1_hello_world.js`: 콘솔 출력 기초 및 여러 인자 출력 방법
+- `1_basics/2_comments.js`: 한 줄 주석과 블록 주석 사용법
+- `1_basics/3_declaring_variable.js`: `var`/`let`/`const` 선언, 초기화, 재할당, TDZ
+- `1_basics/4_naming_conventions.js`: 네이밍 규칙 (camelCase, snake_case, PascalCase)
+- `1_basics/5_data_types.js`: Primitive 타입과 Object, `typeof`, Template Literal, Symbol
+- `1_basics/6_hoisting.js`: 호이스팅 개념 및 예제
+- `1_basics/7_operators.js`: 산술/비교/논리/단항/삼항/널 병합 연산자 등
+- `1_basics/9_if_and_switch.js`: 조건문 (if/else, switch 사용법)
+- `1_basics/10_loops.js`: 반복문 (for/while/do...while, for...in, for...of, break/continue)
+- `1_basics/11_coercion.js`: 타입 변환 (명시적/암묵적, parseInt/parseFloat, truthy/falsy)
+- `1_basics/12_function.js`: 함수 선언/표현식, 화살표 함수, 고차함수, 즉시실행함수, `arguments`
+- `1_basics/13_must_know_array_functions.js`: 배열 메서드 사용법과 예제 (map/filter/reduce 등)
+- `1_basics/14_object.js`: 객체의 생성과 접근, 메서드 정의, `Object.keys`/`Object.values`
+- `1_basics/15_copy_by_value_and_reference.js`: 값 전달 vs 참조 전달, spread 연산자
+- `1_basics/16_try_catch.js`: 예외 처리(try/catch/finally)와 `throw` 사용법
+- `2_class_and_oop/1_class_keyword.js`: 클래스 문법, 생성자, 인스턴스 메서드 및 OOP 기초
+
+> 각 예제 파일을 열어 주석과 콘솔 출력을 확인하며 학습하세요.
 
 ---
 
@@ -30,18 +59,3 @@ JavaScript 기초 개념을 다시 공부하고 실습 파일들을 모아둔 �
 4. vscode 확장에 code runner를 설치해서 해당 파일에서 실행 시키면 실행이 됩니다.
 
 > 예제 파일에 핵심 개념을 설명하는 주석과 간단한 출력 예제가 포함되어 있습니다.
-
----
-
-## 학습 포인트 💡
-
-- **변수 선언:** `var`(더 이상 권장하지 않음), `let`(재할당 가능), `const`(불변)
-- **데이터 타입:** 문자열, 숫자, 불리언, `undefined`, `null`, `Symbol`, 객체(배열 포함)
-- **템플릿 리터럴:** 백틱(``)을 사용한 문자열 보간 및 여러줄 문자열
-- **Symbol:** 유일한(Unique) 값 생성에 사용
-- **배열 인덱스:** 0부터 시작, 접근 및 변경 방법
-- **Hoisting:** 변수 선언은 호이스팅되지만 `let`/`const`는 TDZ(Temporal Dead Zone)으로 인해 사용 전에 접근하면 에러 발생
-- **연산자:** 산술 연산자(+, -, *, /, %), 증가/감소 연산자(`++`, `--`), 단항 연산자(`+`, `-`)를 통한 타입 변환, 대입/비교/논리 연산자, 삼항 연산자, 지수 연산자(`**`) 및 null 병합 연산자(`??`)의 동작과 단축 평가 이해
-- **조건문:** `if` / `else if` / `else`를 통한 분기 흐름, `switch` 문을 사용한 값 매핑과 `break` 사용 유의, 조건식에서의 정확한 비교(`===`) 권장
-- **반복문(Loops):** `for` / `while` / `do...while`의 사용과 중첩 루프, `for...in`(키/인덱스), `for...of`(값) 구문, `break`/`continue` 제어 흐름 예제
-- **타입 변환(Coercion & Conversion):** 명시적 변환(`toString()`, `parseInt`, `parseFloat`, `+` 단항연산자)과 암묵적 변환(문자열 + 숫자 등), truthy/falsy 규칙(`''`, `0`, `null`, `undefined` 등은 false)
