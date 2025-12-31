@@ -40,6 +40,10 @@ JavaScript 기초 개념을 다시 공부하고 실습 파일들을 모아둔 �
 - `3_all_about_object/5_prototype_chain.js` — **프로토타입 체인** (__proto__, prototype, constructor, prototype 메서드 vs 인스턴스 메서드, 상속 구현)
 - `3_all_about_object/6_scope.js` — **스코프** (렉시컬 스코프, 함수 vs 블록 스코프, `var`/`let`/`const` 차이, 중첩 함수)
 - `3_all_about_object/7_this.js` — **this 바인딩** (this 규칙: 일반 호출 / 메서드 / constructor, `call`/`apply`/`bind`)
+- `3_all_about_object/8_1_execution_context.html` — **Execution Context (1)** (Execution Context Stack, 콜 스택, 함수 호출 흐름 예제)
+- `3_all_about_object/8_2_execution_context.html` — **Execution Context (2)** (Execution context 내부 동작, 스택 프레임, 인수와 반환 예제)
+- `3_all_about_object/9_1_closure.js` — **클로저(Closure)** (렉시컬 환경, 외부 변수 캡처, 상태 유지 및 메모리 관리 예제)
+- `3_all_about_object/9_2_closure_example.html` — **클로저 예제** (브라우저 기반 예제: 이벤트 핸들러 및 모듈 패턴)
 
 ---
 
@@ -78,6 +82,10 @@ JavaScript 기초 개념을 다시 공부하고 실습 파일들을 모아둔 �
 - `3_all_about_object/5_prototype_chain.js`: 프로토타입 체인 심층 이해 — `prototype` vs `__proto__`, 메서드 공유, 프로토타입 기반 상속과 `getPrototypeOf`/`setPrototypeOf`
 - `3_all_about_object/6_scope.js`: 스코프와 렉시컬 바인딩 — 함수/블록 스코프, `var`의 함수 스코프 특성, 중첩 함수와 가시성
 - `3_all_about_object/7_this.js`: `this` 바인딩 규칙과 활용 — 일반함수/메서드/생성자 차이, `call`/`apply`/`bind` 사용법 및 예제
+- `3_all_about_object/8_1_execution_context.html`: 실행 컨텍스트 스택 — 콜 스택의 동작, 함수 호출/종료 흐름 시 컨텍스트 생성 및 파괴 예제
+- `3_all_about_object/8_2_execution_context.html`: 실행 컨텍스트 내부 — 스택 프레임(변수, 인수, 반환값), 로컬 환경 동작 예시
+- `3_all_about_object/9_1_closure.js`: 클로저(Closure) — 렉시컬 환경, 함수가 외부 변수를 캡처하여 상태를 유지하는 동작과 예제
+- `3_all_about_object/9_2_closure_example.html`: 클로저 실전 예제 — 이벤트 핸들러/모듈 패턴에서의 사용 예시
 
 > 각 예제 파일을 열어 주석과 콘솔 출력을 확인하며 학습하세요.
 
