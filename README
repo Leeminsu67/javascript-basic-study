@@ -44,6 +44,9 @@ JavaScript 기초 개념을 다시 공부하고 실습 파일들을 모아둔 �
 - `3_all_about_object/8_2_execution_context.html` — **Execution Context (2)** (Execution context 내부 동작, 스택 프레임, 인수와 반환 예제)
 - `3_all_about_object/9_1_closure.js` — **클로저(Closure)** (렉시컬 환경, 외부 변수 캡처, 상태 유지 및 메모리 관리 예제)
 - `3_all_about_object/9_2_closure_example.html` — **클로저 예제** (브라우저 기반 예제: 이벤트 핸들러 및 모듈 패턴)
+- `4_async_programming/1_async_theory.js` — **비동기 이론** (Event Loop, Call Stack, Task Queue, Microtask vs Macrotask)
+- `4_async_programming/2_callback_hell_and_promise.js` — **콜백 & 프로미스** (콜백 헬, Promise 생성/연쇄, then/catch/finally)
+- `4_async_programming/3_async_await.js` — **async/await** (async function, await, 에러 처리, Promise와의 관계)
 
 ---
 
@@ -85,8 +88,9 @@ JavaScript 기초 개념을 다시 공부하고 실습 파일들을 모아둔 �
 - `3_all_about_object/8_1_execution_context.html`: 실행 컨텍스트 스택 — 콜 스택의 동작, 함수 호출/종료 흐름 시 컨텍스트 생성 및 파괴 예제
 - `3_all_about_object/8_2_execution_context.html`: 실행 컨텍스트 내부 — 스택 프레임(변수, 인수, 반환값), 로컬 환경 동작 예시
 - `3_all_about_object/9_1_closure.js`: 클로저(Closure) — 렉시컬 환경, 함수가 외부 변수를 캡처하여 상태를 유지하는 동작과 예제
-- `3_all_about_object/9_2_closure_example.html`: 클로저 실전 예제 — 이벤트 핸들러/모듈 패턴에서의 사용 예시
-
+- `3_all_about_object/9_2_closure_example.html`: 클로저 실전 예제 — 이벤트 핸들러/모듈 패턴에서의 사용 예시- `4_async_programming/1_async_theory.js`: 비동기 이론 — Event Loop, Call Stack, Task Queue, Microtask vs Macrotask의 개념과 예제
+- `4_async_programming/2_callback_hell_and_promise.js`: 콜백 & 프로미스 — 콜백 헬 회피 전략, Promise 생성/연쇄/에러 핸들링, `then`/`catch`/`finally` 예제
+- `4_async_programming/3_async_await.js`: async/await — `async` 함수와 `await` 사용법, `try/catch`로 에러 처리하기, Promise와의 상호작용 예제
 > 각 예제 파일을 열어 주석과 콘솔 출력을 확인하며 학습하세요.
 
 ---
