@@ -1,0 +1,28 @@
+<!-- /**
+ * Execution Context Stack
+ *
+ * 코드 실행에 필요한 모든 데이터를 들고있는 환경이라고 생각하면 편하다
+ *
+ * 싱글 스레드 언어
+  변수와 함수를 Memory Heap에 배정하고 기본 값을 undefined로 저장한다
+ */ -->
+<script>
+  function one() {
+    console.log("run one");
+    console.log("run one finished");
+  }
+
+  function two() {
+    console.log("run two");
+    one();
+    console.log("run two finished");
+  }
+
+  function three() {
+    console.log("run three");
+    two();
+    console.log("run three finished");
+  }
+
+  three();
+</script>
